@@ -11,7 +11,7 @@ if(!x)
     console.log(y);
 }
 
-else if(x === false)
+else if(x === false || false === false && x === false)
 {
     console.log("X now False");
     // here i'll not come because one condition is done.
