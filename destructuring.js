@@ -39,4 +39,28 @@ const arrayObject = [
 
 const {mark}  = arrayObject[2].object;
 
-console.log(mark);
+// console.log(mark);
+
+
+
+// Destructuring object form return value...
+obj = {
+
+    name: 'rocko',
+    roll: 25,
+}
+
+
+
+function objectDestructuring(obj)
+{
+    return obj;
+}
+
+
+
+
+
+const {name} = objectDestructuring(obj);
+
+console.log(name);
