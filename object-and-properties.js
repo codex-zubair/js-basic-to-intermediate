@@ -15,3 +15,19 @@ console.log(Object.values(obj));
 console.log('-----------------')
 console.log(Object.entries(obj));
 console.log('-----------------')
+
+// console.clear();
+
+const anotherObj={
+    roll: 20,
+}
+const newObj = [obj, anotherObj];
+console.log(newObj);
+
+
+console.clear();
+const {obj2} = obj;
+// !pass by reference....
+obj2.age = 254;
+
+console.log(obj2);
