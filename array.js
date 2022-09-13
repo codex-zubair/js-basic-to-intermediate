@@ -4,6 +4,7 @@ const stringArray = 'im string array';
 
 array.push('3000');
 array.push(obj={nickName:'rick', age:27});
+array.unshift(firstObj={age:27});
 // console.log(array);
 
 
@@ -18,6 +19,7 @@ const array2 = [...array.splice(0,2)];
 // Let's take object from array.
 const object = [...array.slice(2,3)] 
 console.log(array2);
+console.log(array2.length);
 console.log(object);
 
 
