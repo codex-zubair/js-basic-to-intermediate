@@ -6,7 +6,7 @@ function work(a,arrowFunction)
 }
 
 
-
+// Multi line Arrow Function.
 const arrow = ()=>
 {
     return "working 2?";
