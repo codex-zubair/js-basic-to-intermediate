@@ -22,12 +22,20 @@ const obj = [
 ]
 
 
+value = obj.map(object=> object.views).sort((a,b)=> a-b);
 
-value = obj.sort((a,b)=>{
-    return b.views-a.views;
-}).filter(item => {
-    return item.name === 'rdx2';
-})
+
+
+// !sort object.
+// value = obj.views.sort((a,b)=>{
+//     return b-a;
+// })
+
+
+// !Filter object
+// .filter(item => {
+//     return item.name === 'rdx2';
+// })
 console.log(value);
 
 
